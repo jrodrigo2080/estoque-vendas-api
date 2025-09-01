@@ -22,5 +22,6 @@ class InventoryResource extends JsonResource
             'total_profit' => $this->quantity * ($this->product->sale_price - $this->product->cost_price),
             'price_total' => $this->quantity * $this->product->sale_price,
         ];
+        
     }
 }
